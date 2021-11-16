@@ -1,0 +1,128 @@
+/******BODY************/
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+    background: #E5E5E5;
+    margin: 0px auto 0px auto;
+}
+
+
+/*********HEADER********/
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position:relative;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.Logo{
+    background-color: black;
+    width: 200px;
+    align-items: center;
+}
+.listaNavegador ul{
+    font-size: 16px;
+    margin-right: 0px;
+    text-align: right;
+    display: flex;
+}
+li{
+    margin: 10px;
+    justify-content: right;
+}
+/************CUERPO-PRINCIPAL***********/
+.cuerpoPrincipal{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Izquierda{
+    background-image: url(/root/img/backgroundPizzeria.png);
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    border-radius: 5px;
+}
+h2 .Izquierda{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.comprando{
+    color:white
+}
+.Derecha{
+    width: 490px;
+    height: 350px;
+    top: 135px;
+    font-weight: 700px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+h2{
+    Font: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+    text-align: center;
+
+}
+h2 .Derecha{
+    Font: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+    margin: 20px 155px 20px 155px;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+}
+#internoDerecho{
+    width: 382px;
+    height: 129px;
+    align-items: flex-start;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+/*************FOOTER*****************/
+footer{
+    height: 180px;
+    bottom: 8px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacionFooter{
+    bottom: 8px;
+    background: #222222;
+}
+.logoFooter{
+    margin-left: 50px;
+    right: 50px;
+    width: 235px;
+    height: 82px;
+}
